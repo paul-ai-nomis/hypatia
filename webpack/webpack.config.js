@@ -140,7 +140,10 @@ module.exports = (options) => {
       contentBase: Path.resolve(__dirname, '../'),
       hot: true,
       inline: true,
-      historyApiFallback: true
+      historyApiFallback: true,
+      
+      disableHostCheck: true,
+      // host: '0.0.0.0'
     };
   }
 
